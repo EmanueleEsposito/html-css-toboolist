@@ -9,10 +9,123 @@
 /*commons*/
 header{
     font-family: Arial, Helvetica, sans-serif;
-    font-size:12px;
+    font-size:15px;
     background-color: white;
-    margin: 25px;
+    margin:auto;
+    padding-left: 50px;
+   
+
+}
     
-   ;
+body{
+    background-color: lightgray;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+.btn-blue{
+    background-color: blue;
+    color: white;
+    border: 1px;
+    padding: 3px;
+    border-radius: 3px;
+    text-decoration: none;
+    
+}
+.btn-disabled{
+    text-decoration: none;
+    border: 1px solid;
+    padding: 3px;
+    border-radius: 3px;
+    
 }
 
+main{
+    background-color: white;
+   width: 70%;
+   margin-left: auto;
+   margin-top: 5%;
+   margin-right: auto;
+}
+.top{
+    padding-top: 7px;
+    padding-bottom: 7px;
+    padding-left: 50px;
+    border-bottom: 2px;
+    border-color: #f6f8f9;
+}
+.circle{
+    border: 1px solid;
+    border-radius: 25px;
+    width: 15px;
+    height: 15px;
+    display: inline-block;
+    font-size: 10px;
+    text-align: center;
+    color: aqua;
+}
+.circle-red{
+    border: 1px solid;
+    border-radius: 25px;
+    width: 15px;
+    height: 15px;
+    display: inline-block;
+    font-size: 10px;
+    text-align: center;
+    color: red;
+
+}
+.etichetta-blue{
+
+    background-color: blue;
+    color: white;
+    border: 1px;
+    padding: 3px;
+    border-radius: 3px;
+    text-decoration: none;
+}
+.etichetta-purple{
+    background-color: purple;  
+    color: white;
+    border: 1px;
+    padding: 3px;
+    border-radius: 3px;
+    text-decoration: none;
+}
+.etichetta-green{
+    background-color: green;
+    color: white;
+    border: 1px;
+    padding: 3px;
+    border-radius: 3px;
+    text-decoration: none;
+}
+.etichetta-orange{
+    background-color: orange;
+    color: white;
+    border: 1px;
+    padding: 3px;
+    border-radius: 3px;
+    text-decoration: none;
+}
+.etichetta-pink{
+    background-color: palevioletred;
+    color: white;
+    border: 1px;
+    padding: 3px;
+    border-radius: 3px;
+    text-decoration: none;
+}
+.etichetta-green-yellow{
+    background-color: greenyellow;  
+    color: white;
+    border: 1px;
+    padding: 3px;
+    border-radius: 3px;
+    text-decoration: none;
+}
+ul li{margin-bottom: 20px;}
+
+
+.list-disable{
+    list-style: none;
+}
